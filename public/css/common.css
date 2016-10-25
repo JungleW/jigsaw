@@ -1,0 +1,35 @@
+/* 通用 */
+.f-cb:after {
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+body {
+	margin: 0;
+}
+header {
+	background-color: #12a5ce;
+    color: #fff;
+}
+header h1{
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+header .left,
+header .right {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+header .left{
+    float: left;
+}
+header .right{
+    float: right;
+}

@@ -1,0 +1,39 @@
+.content .count{
+	padding: 5px 10px;
+    color: #fff;
+    background-color: #00BCD4;
+}
+.content .count > span {
+    display: inline-block;
+    margin-right: 10px;	
+    font-size: 18px;
+}
+.content .count > .left {
+	float: left;
+}
+.content .count > .right {
+	float: right;
+}
+.content .count .time{
+	font-size: 16px;
+    line-height: 20px;
+}
+.content .count .finished{
+	font-size: 16px;
+    line-height: 20px;
+}
+.content .canvas{
+	background-color: #a93a15;
+}
+.content .canvas canvas{
+	display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.content .image {
+	width: 100%;
+}
+
+#video {
+    display: none;
+}
